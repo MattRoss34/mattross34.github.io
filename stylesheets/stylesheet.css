@@ -375,6 +375,33 @@ Full-Width Styles
   background: #212121;
 }
 
+.portfolio-item-container {
+  width: 100%;
+  display: flex !important;
+  flex-direction: row;
+  padding: 30px 0 30px 0;
+}
+
+.portfolio-item-content {
+  flex: 1 1 0px;
+  width: 50%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0 10px 0 10px;
+}
+
+.portfolio-item-content img {
+  margin: 0px;
+}
+
+.portfolio-item-title {
+  line-height: 1em; margin: 0;
+}
+
+.super {
+  vertical-align: super;
+  font-size: x-small;
+}
 
 
 /*******************************************************************************
