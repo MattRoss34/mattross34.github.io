@@ -426,7 +426,7 @@ Full-Width Styles
   padding: 10px;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 980px) {
 
   .portfolio-item-container {
     flex-direction: column;
