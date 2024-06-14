@@ -375,11 +375,20 @@ Full-Width Styles
   background: #212121;
 }
 
+.portfolio-header {
+  margin-bottom: 0px;
+  padding-top: 20px;
+}
+
 .portfolio-item-container {
   width: 100%;
-  display: flex !important;
+  display: flex;
   flex-direction: row;
-  padding: 30px 0 30px 0;
+  padding: 5em 0 5em 0;
+}
+
+.dark {
+  background-color: lightgrey;
 }
 
 .portfolio-item-content {
@@ -401,6 +410,10 @@ Full-Width Styles
 .super {
   vertical-align: super;
   font-size: x-small;
+}
+
+.text-content-container {
+  padding: 10px;
 }
 
 
