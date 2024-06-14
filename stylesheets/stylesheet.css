@@ -387,7 +387,7 @@ Full-Width Styles
   padding: 5em 0 5em 0;
 }
 
-.dark {
+.alternated-content {
   background-color: lightgrey;
 }
 
@@ -416,6 +416,40 @@ Full-Width Styles
   padding: 10px;
 }
 
+@media (max-width: 600px) {
+
+  .portfolio-item-container {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .portfolio-item-content {
+    width: 100%;
+  }
+
+  .alternated-content {
+    flex-direction: column-reverse;
+  }
+
+  .portfolio-item-content:nth-child(1) {
+    margin-top: 0px;
+  }
+
+  .portfolio-item-content:nth-child(2) {
+    margin-top: 40px;
+  }
+
+  .alternated-content .portfolio-item-content:nth-child(1) {
+    margin-top: 40px;
+  }
+
+  .alternated-content .portfolio-item-content:nth-child(2) {
+    margin-top: 0px;
+  }
+
+}
 
 /*******************************************************************************
 Small Device Styles
